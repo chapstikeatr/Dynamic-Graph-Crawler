@@ -5,11 +5,11 @@
 #SBATCH --partition=Centaurus
 #SBATCH --mem=10G
 
-srun $HOME/Dynamic-Graph-Crawler/dynamic "Tom Hanks" 2
-srun $HOME/Dynamic-Graph-Crawler/dynamic "Tom Hanks" 3
-srun $HOME/Dynamic-Graph-Crawler/dynamic "Tom Hanks" 4
-srun $HOME/Dynamic-Graph-Crawler/sequential "Tom Hanks" 2
-srun $HOME/Dynamic-Graph-Crawler/sequential "Tom Hanks" 3
-srun $HOME/Dynamic-Graph-Crawler/sequential "Tom Hanks" 4
+srun $HOME/Dynamic-Graph-Crawler/dynamic/dynamic "Tom Hanks" 2
+srun $HOME/Dynamic-Graph-Crawler/dynamic/dynamic "Tom Hanks" 3
+srun $HOME/Dynamic-Graph-Crawler/dynamic/dynamic "Tom Hanks" 4
+srun $HOME/Dynamic-Graph-Crawler/sequential/seqLC "Tom Hanks" 2
+srun $HOME/Dynamic-Graph-Crawler/sequential/seqLC "Tom Hanks" 3
+srun $HOME/Dynamic-Graph-Crawler/sequential/seqLC "Tom Hanks" 4
 
 
