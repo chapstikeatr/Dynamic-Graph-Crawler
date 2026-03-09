@@ -251,7 +251,7 @@ int main(int argc, char *argv[]) {
 
   const auto finish{std::chrono::steady_clock::now()};
   const std::chrono::duration<double> elapsed_seconds{finish - start};
-  std::cout << "Time to crawl: " << elapsed_seconds.count() << "s\n";
+  std::cerr << "Time to crawl: " << elapsed_seconds.count() << "s\n";
 
   curl_easy_cleanup(curl);
 
